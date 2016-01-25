@@ -4,8 +4,11 @@
   "description": "aspnetcore1-angular2-jspm",
   "main": "./wwwroot/app/boot.ts",
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "jspm": "^0.16.25"
+  },
   "scripts": {
+    "postinstall": "jspm install",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,5 +20,14 @@
   "bugs": {
     "url": "https://github.com/dougludlow/aspnetcore1-angular2-jspm/issues"
   },
-  "homepage": "https://github.com/dougludlow/aspnetcore1-angular2-jspm#readme"
+  "homepage": "https://github.com/dougludlow/aspnetcore1-angular2-jspm#readme",
+  "jspm": {
+    "directories": {
+      "baseURL": "wwwroot"
+    },
+    "dependencies": {},
+    "devDependencies": {
+      "typescript": "npm:typescript@^1.6.2"
+    }
+  }
 }
