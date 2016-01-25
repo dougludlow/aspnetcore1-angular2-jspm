@@ -37,7 +37,7 @@ namespace AspnetCore1Angular2Jspm
             loggerFactory.AddDebug();
 
             app.UseIISPlatformHandler();
-
+            app.UseDefaultFiles();
             app.UseStaticFiles();
 
             app.UseMvc();
