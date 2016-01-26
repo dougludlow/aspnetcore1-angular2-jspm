@@ -5,6 +5,12 @@
     <title>ASP.NET Core 1/Angular2/JSPM Sample</title>
 </head>
 <body>
-    <p>Hello world!</p>
+    
+    <my-app></my-app>
+    
+    <script src="jspm_packages/system.js"></script>
+    <script src="config.js"></script>
+    <script>System.import('app/boot')</script>
+    
 </body>
 </html>
