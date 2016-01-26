@@ -10,7 +10,15 @@ System.config({
     "npm:*": "jspm_packages/npm/*",
     "github:*": "jspm_packages/github/*"
   },
-
+  meta: {
+    "angular2/core": {
+      "deps": [
+        "es6-shim",
+        "reflect-metadata",
+        "rxjs"
+      ]
+    }
+  },
   packages: {
     "app": {
       "defaultExtension": "ts",
