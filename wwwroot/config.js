@@ -11,7 +11,7 @@ System.config({
     "github:*": "jspm_packages/github/*"
   },
   meta: {
-    "angular2/core": {
+    "npm:angular2/core": {
       "deps": [
         "es6-shim",
         "reflect-metadata",
